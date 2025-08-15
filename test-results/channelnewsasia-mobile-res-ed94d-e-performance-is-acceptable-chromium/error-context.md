@@ -1,0 +1,617 @@
+# Page snapshot
+
+```yaml
+- link "Skip to main content":
+  - /url: "#main-content"
+- banner:
+  - link "Logo":
+    - /url: /
+    - img "Logo"
+  - navigation:
+    - list:
+      - listitem:
+        - link:
+          - /url: /profile/sso/login?redirect_url=/cna-homepage-singapore
+          - img
+      - listitem:
+        - link:
+          - /url: /profile/myfeed
+          - img
+  - navigation "CNAR Search menu":
+    - heading "CNAR Search menu" [level=2]
+  - navigation "CNAR Primary Menu":
+    - heading "CNAR Primary Menu" [level=2]
+    - list:
+      - listitem:
+        - link "Top Stories":
+          - /url: /
+      - listitem:
+        - link "Latest News":
+          - /url: /latest-news
+      - listitem:
+        - link "Singapore":
+          - /url: /singapore
+      - listitem:
+        - link "Asia":
+          - /url: /asia
+      - listitem:
+        - link "East Asia":
+          - /url: /east-asia
+      - listitem:
+        - link "Commentary":
+          - /url: /commentary
+      - listitem:
+        - link "Insider":
+          - /url: /cna-insider
+      - listitem:
+        - link "TODAY":
+          - /url: /today/homepage
+      - listitem:
+        - link "Lifestyle":
+          - /url: https://cnalifestyle.channelnewsasia.com/
+      - listitem:
+        - link "Watch":
+          - /url: /watch
+      - listitem:
+        - link "Listen":
+          - /url: /listen
+    - button:
+      - img
+  - navigation "CNAR Secondary Menu":
+    - heading "CNAR Secondary Menu" [level=2]
+- text: Advertisement
+- iframe
+- main:
+  - article:
+    - 'link "Highlights: Ong Beng Seng fined S$30,000 as judge cites judicial mercy in sentencing"':
+      - /url: /singapore/ong-beng-seng-sentence-obstruct-justice-iswaran-f1-judicial-mercy-5292491?click_source=thumbnail
+      - 'img "Highlights: Ong Beng Seng fined S$30,000 as judge cites judicial mercy in sentencing"'
+    - 'heading "Highlights: Ong Beng Seng fined S$30,000 as judge cites judicial mercy in sentencing" [level=3]':
+      - 'link "Highlights: Ong Beng Seng fined S$30,000 as judge cites judicial mercy in sentencing"':
+        - /url: /singapore/ong-beng-seng-sentence-obstruct-justice-iswaran-f1-judicial-mercy-5292491
+    - paragraph: The 79-year-old billionaire pleaded guilty on Aug 4 to abetting former Transport Minister S Iswaran in obstructing justice.
+    - text: 16 minutes ago
+    - heading "Property tycoon Ong Beng Seng fined S$30,000 for abetting ex-minister S Iswaran in obstruction of justice" [level=3]:
+      - link "Property tycoon Ong Beng Seng fined S$30,000 for abetting ex-minister S Iswaran in obstruction of justice":
+        - /url: /singapore/ong-beng-seng-sentenced-fined-abet-iswaran-obstruct-justice-f1-5293981
+    - paragraph: The judge agreed with the prosecution and defence that judicial mercy was justified, given Ong's ill health.
+    - text: 4 minutes ago
+    - 'heading "Ong Beng Seng sentenced: A timeline of his court case involving Iswaran" [level=3]':
+      - 'link "Ong Beng Seng sentenced: A timeline of his court case involving Iswaran"':
+        - /url: /singapore/ong-beng-seng-sentenced-timeline-court-case-iswaran-5294076
+    - paragraph: CNA looks at the events from when the Corrupt Practices Investigation Bureau first announced its probe that would embroil both men in criminal offences.
+    - text: 12 minutes ago
+    - link "Full service on Sengkang-Punggol LRT resumes after four-hour disruption due to power fault":
+      - /url: /singapore/sengkang-punggol-lrt-train-no-service-power-fault-5295696?click_source=thumbnail
+      - img "Full service on Sengkang-Punggol LRT resumes after four-hour disruption due to power fault"
+    - heading "Full service on Sengkang-Punggol LRT resumes after four-hour disruption due to power fault" [level=3]:
+      - link "Full service on Sengkang-Punggol LRT resumes after four-hour disruption due to power fault":
+        - /url: /singapore/sengkang-punggol-lrt-train-no-service-power-fault-5295696
+    - text: 1 hour ago
+    - link "Prabowo vows crackdown on ‘greednomics’, corruption in first State of the Nation address":
+      - /url: /asia/indonesia-prabowo-corruption-greednomics-first-state-union-address-5294321?click_source=thumbnail
+      - img "Prabowo vows crackdown on ‘greednomics’, corruption in first State of the Nation address"
+    - heading "Prabowo vows crackdown on ‘greednomics’, corruption in first State of the Nation address" [level=3]:
+      - link "Prabowo vows crackdown on ‘greednomics’, corruption in first State of the Nation address":
+        - /url: /asia/indonesia-prabowo-corruption-greednomics-first-state-union-address-5294321
+    - text: 26 minutes ago
+    - link "With Malaysia’s drug abuse cases at ‘critical level’ amid rise of Kpods, can it turn the tide?":
+      - /url: /asia/malaysia-war-drugs-ahmad-zahid-hamidi-kpods-vape-5294426?click_source=thumbnail
+      - img "With Malaysia’s drug abuse cases at ‘critical level’ amid rise of Kpods, can it turn the tide?"
+    - heading "With Malaysia’s drug abuse cases at ‘critical level’ amid rise of Kpods, can it turn the tide?" [level=3]:
+      - link "With Malaysia’s drug abuse cases at ‘critical level’ amid rise of Kpods, can it turn the tide?":
+        - /url: /asia/malaysia-war-drugs-ahmad-zahid-hamidi-kpods-vape-5294426
+    - text: 10 hours ago
+    - 'link "''Give you money, you don’t want?'': 3 in 4 older platform workers yet to opt in for higher CPF contributions"':
+      - /url: /singapore/platform-work-delivery-rider-cpf-contribution-5294336?click_source=thumbnail
+      - 'img "''Give you money, you don’t want?'': 3 in 4 older platform workers yet to opt in for higher CPF contributions"'
+    - 'heading "''Give you money, you don’t want?'': 3 in 4 older platform workers yet to opt in for higher CPF contributions" [level=3]':
+      - 'link "''Give you money, you don’t want?'': 3 in 4 older platform workers yet to opt in for higher CPF contributions"':
+        - /url: /singapore/platform-work-delivery-rider-cpf-contribution-5294336
+    - text: 2 hours ago
+    - link "Trump and Putin to spar over Ukraine peace and arms control at Alaska summit":
+      - /url: /world/donald-trump-vladimir-putin-ukraine-peace-arms-control-alaska-summit-us-russia-5296116?click_source=thumbnail
+      - img "Trump and Putin to spar over Ukraine peace and arms control at Alaska summit"
+    - heading "Trump and Putin to spar over Ukraine peace and arms control at Alaska summit" [level=3]:
+      - link "Trump and Putin to spar over Ukraine peace and arms control at Alaska summit":
+        - /url: /world/donald-trump-vladimir-putin-ukraine-peace-arms-control-alaska-summit-us-russia-5296116
+    - text: 2 hours ago
+    - 'link "Putin-Trump summit: What each side wants"':
+      - /url: /world/putin-trump-summit-alaska-what-each-side-wants-ukraine-europe-5295936?click_source=thumbnail
+      - 'img "Putin-Trump summit: What each side wants"'
+    - 'heading "Putin-Trump summit: What each side wants" [level=3]':
+      - 'link "Putin-Trump summit: What each side wants"':
+        - /url: /world/putin-trump-summit-alaska-what-each-side-wants-ukraine-europe-5295936
+    - text: 2 hours ago
+    - link "More Singaporeans under 30 going for plastic surgery; number of botched jobs also on the rise":
+      - /url: /singapore/plastic-surgery-beauty-enhancements-botched-jobs-younger-addiction-5295756?click_source=thumbnail
+      - img "More Singaporeans under 30 going for plastic surgery; number of botched jobs also on the rise"
+    - heading "More Singaporeans under 30 going for plastic surgery; number of botched jobs also on the rise" [level=3]:
+      - link "More Singaporeans under 30 going for plastic surgery; number of botched jobs also on the rise":
+        - /url: /singapore/plastic-surgery-beauty-enhancements-botched-jobs-younger-addiction-5295756
+    - text: 2 hours ago Advertisement
+    - heading "Shorts" [level=2]
+    - link "Indonesian minister vows transparent probe into army recruit's death from alleged abuse":
+      - /url: /shorts/shorts/indonesian-minister-vows-transparent-probe-army-recruits-death-alleged-abuse-5296261?videoID=6376947904112&directURL=true
+      - img "Indonesian minister vows transparent probe into army recruit's death from alleged abuse"
+    - heading "Indonesian minister vows transparent probe into army recruit's death from alleged abuse" [level=2]:
+      - link "Indonesian minister vows transparent probe into army recruit's death from alleged abuse":
+        - /url: /shorts/shorts/indonesian-minister-vows-transparent-probe-army-recruits-death-alleged-abuse-5296261
+    - text: 1m 08s
+    - heading "More Top Stories" [level=2]
+    - 'link "''We''re unable to achieve that dream'': Why Malaysia is losing its doctors"':
+      - /url: /cna-insider/malaysia-doctor-shortage-low-pay-84-hour-working-week-5294496?click_source=thumbnail
+      - 'img "''We''re unable to achieve that dream'': Why Malaysia is losing its doctors"'
+    - 'heading "''We''re unable to achieve that dream'': Why Malaysia is losing its doctors" [level=3]':
+      - 'link "''We''re unable to achieve that dream'': Why Malaysia is losing its doctors"':
+        - /url: /cna-insider/malaysia-doctor-shortage-low-pay-84-hour-working-week-5294496
+    - text: 8 hours ago
+    - link "More than 360 hit by food poisoning after eating free school meal in Indonesian town":
+      - /url: /asia/indonesia-food-poisoning-free-meals-programme-prabowo-5294641?click_source=thumbnail
+      - img "More than 360 hit by food poisoning after eating free school meal in Indonesian town"
+    - heading "More than 360 hit by food poisoning after eating free school meal in Indonesian town" [level=3]:
+      - link "More than 360 hit by food poisoning after eating free school meal in Indonesian town":
+        - /url: /asia/indonesia-food-poisoning-free-meals-programme-prabowo-5294641
+    - text: 4 hours ago
+    - link "Aggression only leads to defeat, Taiwan president says on world war anniversary":
+      - /url: /east-asia/aggression-only-leads-defeat-taiwan-president-says-world-war-anniversary-5295916?click_source=thumbnail
+      - img "Aggression only leads to defeat, Taiwan president says on world war anniversary"
+    - heading "Aggression only leads to defeat, Taiwan president says on world war anniversary" [level=3]:
+      - link "Aggression only leads to defeat, Taiwan president says on world war anniversary":
+        - /url: /east-asia/aggression-only-leads-defeat-taiwan-president-says-world-war-anniversary-5295916
+    - text: 4 hours ago
+    - link "Hong Kong tycoon Jimmy Lai's security trial delayed over health concerns":
+      - /url: /east-asia/hong-kong-tycoon-jimmy-lai-trial-resumes-after-delay-5295886?click_source=thumbnail
+      - img "Hong Kong tycoon Jimmy Lai's security trial delayed over health concerns"
+    - heading "Hong Kong tycoon Jimmy Lai's security trial delayed over health concerns" [level=3]:
+      - link "Hong Kong tycoon Jimmy Lai's security trial delayed over health concerns":
+        - /url: /east-asia/hong-kong-tycoon-jimmy-lai-trial-resumes-after-delay-5295886
+    - text: 4 hours ago
+    - link "Cordlife sets aside S$500,000 for enhanced compensation package to affected customers":
+      - /url: /singapore/cordlife-compensation-package-affected-customers-test-review-results-legal-claims-5295891?click_source=thumbnail
+      - img "Cordlife sets aside S$500,000 for enhanced compensation package to affected customers"
+    - heading "Cordlife sets aside S$500,000 for enhanced compensation package to affected customers" [level=3]:
+      - link "Cordlife sets aside S$500,000 for enhanced compensation package to affected customers":
+        - /url: /singapore/cordlife-compensation-package-affected-customers-test-review-results-legal-claims-5295891
+    - text: 3 hours ago
+    - heading "She trains guide dogs in Singapore so blind people can get around independently and confidently" [level=3]:
+      - link "She trains guide dogs in Singapore so blind people can get around independently and confidently":
+        - /url: /women/guide-dog-singapore-mobility-instructor-christina-teng-5291746
+    - text: 3 hours ago
+    - heading "Sick Thai princess suffers 'severe' blood infection" [level=3]:
+      - link "Sick Thai princess suffers 'severe' blood infection":
+        - /url: /asia/thailand-princess-bajrakitiyabha-mahidol-severe-blood-infection-5296251
+    - text: 15 minutes ago
+    - 'heading "Commentary: Why forced clean-ups in hoarding cases can backfire" [level=3]':
+      - 'link "Commentary: Why forced clean-ups in hoarding cases can backfire"':
+        - /url: /commentary/hoarding-mental-health-diagnosis-support-fire-public-safety-5294466
+    - text: 9 hours ago Advertisement
+    - heading "Podcasts" [level=2]
+    - link "Deep Dive - What will it take to revitalise Singapore's nightlife?":
+      - /url: /listen/deep-dive/what-will-it-take-revitalise-singapores-nightlife-5295606?click_source=thumbnail
+      - img "Deep Dive - What will it take to revitalise Singapore's nightlife?"
+    - heading "What will it take to revitalise Singapore's nightlife?" [level=2]:
+      - link "What will it take to revitalise Singapore's nightlife?":
+        - /url: /listen/deep-dive/what-will-it-take-revitalise-singapores-nightlife-5295606
+    - img
+    - text: 23 mins
+    - link "Listen to more podcasts":
+      - /url: /listen
+    - heading "Lifestyle" [level=2]
+    - link "She trains guide dogs in Singapore so blind people can get around independently and confidently":
+      - /url: /women/guide-dog-singapore-mobility-instructor-christina-teng-5291746?click_source=thumbnail
+      - img "She trains guide dogs in Singapore so blind people can get around independently and confidently"
+    - heading "She trains guide dogs in Singapore so blind people can get around independently and confidently" [level=3]:
+      - link "She trains guide dogs in Singapore so blind people can get around independently and confidently":
+        - /url: /women/guide-dog-singapore-mobility-instructor-christina-teng-5291746
+    - text: 3 hours ago
+    - link "Taylor Swift's chat with the Kelces on New Heights marks a milestone moment for podcasts":
+      - /url: /entertainment/taylor-swift-new-heights-podcast-travis-kelce-jason-5295551?click_source=thumbnail
+      - img "Taylor Swift's chat with the Kelces on New Heights marks a milestone moment for podcasts"
+    - heading "Taylor Swift's chat with the Kelces on New Heights marks a milestone moment for podcasts" [level=3]:
+      - link "Taylor Swift's chat with the Kelces on New Heights marks a milestone moment for podcasts":
+        - /url: /entertainment/taylor-swift-new-heights-podcast-travis-kelce-jason-5295551
+    - text: 7 hours ago
+    - 'link "Punggol Coast Hawker Centre: 5 stalls to visit for handmade puffs, affordable seafood and more"':
+      - /url: /dining/punggol-coast-hawker-centre-stalls-try-5295951?click_source=thumbnail
+      - 'img "Punggol Coast Hawker Centre: 5 stalls to visit for handmade puffs, affordable seafood and more"'
+    - 'heading "Punggol Coast Hawker Centre: 5 stalls to visit for handmade puffs, affordable seafood and more" [level=3]':
+      - 'link "Punggol Coast Hawker Centre: 5 stalls to visit for handmade puffs, affordable seafood and more"':
+        - /url: /dining/punggol-coast-hawker-centre-stalls-try-5295951
+    - text: 3 hours ago
+    - link "Popular Australian dessert chain Yo-Chi opens first international outlet at Singapore's Orchard Central":
+      - /url: /dining/yo-chi-singapore-outlet-opening-orchard-central-5295821?click_source=thumbnail
+      - img "Popular Australian dessert chain Yo-Chi opens first international outlet at Singapore's Orchard Central"
+    - heading "Popular Australian dessert chain Yo-Chi opens first international outlet at Singapore's Orchard Central" [level=3]:
+      - link "Popular Australian dessert chain Yo-Chi opens first international outlet at Singapore's Orchard Central":
+        - /url: /dining/yo-chi-singapore-outlet-opening-orchard-central-5295821
+    - text: 5 hours ago
+    - heading "Commentary" [level=2]
+    - 'link "Commentary: What does Myanmar Acting President Myint Swe’s death mean for the country?"':
+      - /url: /commentary/myanmar-acting-president-myint-swe-dies-election-political-reform-5294441?click_source=thumbnail
+      - 'img "Commentary: What does Myanmar Acting President Myint Swe’s death mean for the country?"'
+    - text: Wai Moe & Kyi Sin
+    - 'heading "Commentary: What does Myanmar Acting President Myint Swe’s death mean for the country?" [level=3]':
+      - 'link "Commentary: What does Myanmar Acting President Myint Swe’s death mean for the country?"':
+        - /url: /commentary/myanmar-acting-president-myint-swe-dies-election-political-reform-5294441
+    - text: 10 hours ago
+    - link "Jared Ng":
+      - /url: /commentary/mental-health-crisis-helpline-1771-counsellors-staffing-training-referral-5292396?click_source=thumbnail
+      - img "Jared Ng"
+    - text: Jared Ng
+    - 'heading "Commentary: Don''t make people dealing with a mental health crisis tell their story twice" [level=3]':
+      - 'link "Commentary: Don''t make people dealing with a mental health crisis tell their story twice"':
+        - /url: /commentary/mental-health-crisis-helpline-1771-counsellors-staffing-training-referral-5292396
+    - text: a day ago
+    - link "Ven Sreenivasan":
+      - /url: /commentary/m1-simba-starhub-myrepublic-singtel-telco-consolidation-prices-mobile-phone-plans-5292091?click_source=thumbnail
+      - img "Ven Sreenivasan"
+    - text: Ven Sreenivasan
+    - 'heading "Commentary: Singapore’s telco sector is back to a three-horse race" [level=3]':
+      - 'link "Commentary: Singapore’s telco sector is back to a three-horse race"':
+        - /url: /commentary/m1-simba-starhub-myrepublic-singtel-telco-consolidation-prices-mobile-phone-plans-5292091
+    - text: a day ago
+    - link "G Owen Schaefer":
+      - /url: /commentary/babies-born-ivf-three-parents-dna-mitochondrial-disease-donor-uk-newcastle-5290211?click_source=thumbnail
+      - img "G Owen Schaefer"
+    - text: G Owen Schaefer
+    - 'heading "Commentary: With UK success, should Singapore reconsider 3-parent IVF?" [level=3]':
+      - 'link "Commentary: With UK success, should Singapore reconsider 3-parent IVF?"':
+        - /url: /commentary/babies-born-ivf-three-parents-dna-mitochondrial-disease-donor-uk-newcastle-5290211
+    - text: 2 days ago
+    - link "Terence Ho":
+      - /url: /commentary/ai-jobs-concerns-replace-humans-unique-advantage-5288346?click_source=thumbnail
+      - img "Terence Ho"
+    - text: Terence Ho
+    - 'heading "Commentary: The human advantage in the age of AI" [level=3]':
+      - 'link "Commentary: The human advantage in the age of AI"':
+        - /url: /commentary/ai-jobs-concerns-replace-humans-unique-advantage-5288346
+    - text: 3 days ago
+    - link "More commentaries":
+      - /url: /commentary
+    - text: Advertisement
+    - heading "Visual Stories" [level=2]
+    - link "A Singaporean teen chasing K-pop dreams in Seoul":
+      - /url: /visual-stories/visual-stories/singaporean-teen-chasing-k-pop-dreams-in-seoul-5241066?ref=cna-homepage-singapore_91902672-2309-4431-8604-3f7b0f585505&cid=91902672-2309-4431-8604-3f7b0f585505&pos=0&click_source=thumbnail&from_carousel=true
+      - img "A Singaporean teen chasing K-pop dreams in Seoul"
+    - heading "A Singaporean teen chasing K-pop dreams in Seoul" [level=3]:
+      - link "A Singaporean teen chasing K-pop dreams in Seoul":
+        - /url: /visual-stories/visual-stories/singaporean-teen-chasing-k-pop-dreams-in-seoul-5241066?ref=cna-homepage-singapore_91902672-2309-4431-8604-3f7b0f585505&cid=91902672-2309-4431-8604-3f7b0f585505&pos=0
+    - text: a day ago
+    - link "Read Now":
+      - /url: /visual-stories/visual-stories/singaporean-teen-chasing-k-pop-dreams-in-seoul-5241066?ref=cna-homepage-singapore_91902672-2309-4431-8604-3f7b0f585505&cid=91902672-2309-4431-8604-3f7b0f585505&pos=0&click_source=read_button&from_carousel=true
+    - link "View more":
+      - /url: /visual-stories
+    - heading "Trending" [level=2]
+    - text: "1"
+    - heading "Bukit Canberra hawkers contractually bound to provide free meals under pay-it-forward scheme, lawyers say" [level=6]:
+      - link "Bukit Canberra hawkers contractually bound to provide free meals under pay-it-forward scheme, lawyers say":
+        - /url: https://boost-recommend.mediacorp.sg/click/60346fa01d6c1c630a6252de476bf12b29271ab5990e1caf5ef33691328a18750299b65db88413f9e51f1bb826183e1f92bbb6ba5da09172acde6daa5bba29c54eea4faf654f292620d1381f34c5f546754863524fdf60a5b9ad25fa92976a47e4fa31a43fedffd412e27c924694553434577f9c850532587c75cf831b66e6d43d42eae03bd24bc70b05871b67d41303fd771369096614a5167a140c746a7a9e66c22a1fed0c88f7c6e6ffef1fd6ca61a228859bf1464e35c835244cad700dffe09b2c55bce0118f855dcd9bfc415706054a8bfecb3af6d01d125036256651387250130bdb45294f45588a626a912cbdb64961641445b91c144a4ffa8ae007c9dc72645dc844d4b709ff8d8a33ab59ca848b7cd60143ba2f356c827de4d0216471171d2b25b3b5f57674ef6eb90700cb1df713c8d2441b0d89ac964e48f189434deac773497097a4bab9886fc34dfec98363f67a59f9bc40fec2a3962fc56b7a1b3052313858574f1d466bc6fedf863288fe5a8b019ffa78ebe2b4ebd7d9cb5ed53edc15ab8ba5bcc63b5fb6fb6ff8b8640a1acf390f3524525b4a69bef4cbddec6d7415339eeea9b4be6b3f811d3ca9399b04ca9bc9b426d814112dc1859e32e9e4e51e1ad88e6ff5184d20ba12a8e78e81a888c3edf9d24302c01799be677bba34b21c17a1ba64356fe10b2c87f0e4340551a6b83da4bd7d11f240b086b9d764d4a8271ec934b94727ccfe0e9af51a69712b32f1610f5f3e59930d7c844b6a630fb31a81ea886baf1a3fb3f35cfaee502594d08188a65e6fcb69657f14dd9813f729d21b086a22e12b962aac5ae9cadc3462bb98131bc1d517c3dadfce089a14fbba075dfd133a1b2175fe0c273ed695e7701427b10c8c884069fcfb15bd1ffcf0a7029a97eff50cb0da2895b924d822547bae025f27d950e8b88218eaed24f5b78795caad95ad1db221dc818f210d017217f6bc14e3787da6d75377ad48e8/36af763623e588e24702e2a5257fc4804d96b6afec75df29ee95b7d6a2d6568a33c5effe8215c3eba362c7d49cc8ab5283e73e97f690088eee7e8f4220536c1ce725999d8ad0479d7f64bbbbfd64cef05583c2281c5602fe34763ed36c392a2b4274c28f42ae394e32bf77ab114a7af9c274303749b7cb883bba25089d84d9483a6d83541de790c1ceca2235c65d146e/bukit-canberra-hawker-centre-free-meals-lawyers-5294926
+    - text: "2"
+    - heading "Train service on Sengkang-Punggol LRT 'progressively' resuming after disruption due to power fault" [level=6]:
+      - link "Train service on Sengkang-Punggol LRT 'progressively' resuming after disruption due to power fault":
+        - /url: https://boost-recommend.mediacorp.sg/click/df8512ac9223bed1645bcbc38ec12428ca57bac17bb4fe35ad6536939fcf3794017000a27120809054334bc10049ef6b2e83daa04f8e861f05bddd387cf6493058c9bdc1e1470ed43f33f6a5f8a5c00d1a8ae43b6465958cb175d821128dbad8c00ad60d54ac546f9d5aa0d2937239bd75b0d6cb2c317e829a0bb8dc42984d2fb7eb228b426fafdf348a84845976090b0c7ad1ce7e7f5dfc37a9226049f8bbfa2a106bf0292593bb734747033cef76bf018104c6bb029fa94fc6a249cf57d93c5c9db905b43de79a667a7f156bfb786a07de5dac931ea9c8db3e337f9ee43a28a99c6461cbc4d52da73616b078582829c3a6a86cc84cfbe224d9a5a99afe044dc65ea5b2246c6005e2b5143730ba663746e281f8113c4bc936de5b165b4fef6b10c46a0962f3875d3b29d1afb8c1e3882982db2fae72b60926dfacc4fad1014106612f07554574e18ec41be57558468b4c289a3033928d580332629eee1c6a078402f68fbf24dd43ba597682ab4be85c1408be21b3b1227340d63eecc6993d94181d4ad025fe4a50a3c93ee0a4820b6620efc74cdc4e2aeb7efa1f94014808fbb7adf534acab5cc30e87d808c28d1e908141de5fb2827796fcef0384a1c811d04d4ca5c948f3f93888a6da159d6ca8f65d3f6709333f215fbf29abf6b0ad2afa1f436e1dc03f99617c9715a55114829137dbe3fffadf8c0ad37fe073333d52abf66ec7743eff9380c8134e5b26dc416535bb04967f1c475c1a5b5be3caa821eefa0a190cea5d3ed7c64981f9befe912f2052be7c2ff2cfc1076ab581cd6399cb083dbc9c6ce98a3cbd20eb8fc438ba0c82ce0713b3aaabd77d0415db9fce4e372f786885adff8bd83f33aaac0756355c7ac1e3991bb4ee821c834d14287a6e1950ee53a82e07eed712a16e5bd7a12e75287aa60192e94a1552a203c4141193d0df61e4ab3160b94518710e55f8974e183a8504da2fee59690dd7eca196fb3375/36af763623e588e24702e2a5257fc4804d96b6afec75df29ee95b7d6a2d6568aff0a9aea7937987058457577954cda69efce03a5016be674294902bbaebaf98bec66d09fd4b6868e3fafae84cb6b930408199c8a7324bf8d62aa2930da3d650f931ad9ab440bf78dbf2493f24afc2ce6dc92228de534e9a2896b92f06340ee0acc1cb141ed56d1281b3b79761e2eb1fb/sengkang-punggol-lrt-train-no-service-power-fault-5295696
+    - text: "3"
+    - 'heading "''Give you money, you don’t want?'': 3 in 4 older platform workers yet to opt in for higher CPF contributions" [level=6]':
+      - 'link "''Give you money, you don’t want?'': 3 in 4 older platform workers yet to opt in for higher CPF contributions"':
+        - /url: https://boost-recommend.mediacorp.sg/click/df8512ac9223bed1645bcbc38ec12428f087aa8a9601eb8025eb015557026f8414120f7a78f670bd65654212e56e6278a02324a02ef58868b930a9be045682db4530e7ec5b682716a78d126b3d787fabd57941d27a9e0e48d8445c7dd6652056fc9ef70b9de5efb1264b5af5f1519be245501a432696a565caaf0a62e845d95cb4a249772331c40b73670f03707995c4a39c3bc5f54d3ec2baa47ffe5c634f6ef861707464ccd77d51ddfb2146ea21fea7ead7cd4bf0e4d28a564370c8805a3136e3976427716b2ef9c3151f7089988316fb70c2a9df559481d2c19baf113ac9d45989fd4ffd96b172c0a992c4fbe9cbc946ff3a8fcfdfaac84aba14a38efe3d7da2bb61d121738abc452d194787648d7349cbedf344b5520c4b8d671d8bfdb9d5194225b133f8201fc8c877da39c52573f848875793f3bc2da92f02eee1eef8c62564b16d12fc34f6d603e3526e75e889ae18a74aed9c5831c4826902e7b57e32f4b890489773e664ef3205e589ee3d0a8652fc64d7b4255205cc576b8ee5810350ae315afbc7f8af88deeacfa84f0adbc0cde87b416ff1c32948ce1301774e02eef6a6f0c91f5c11fc72443b20c06fa3cc4039c9494808076456871a9bc6b0d9df20235365e608850fb599084cb4ab23514e5e7bf549ce01e7418eac3a0ea25756e1dc6a215e38f5fe854f0629d5cf0cb6e8bb7bcc1b2ceaa378dd02cd7421f66ecbe9d5ea71ffee0e4c0d524eaf223bf8ec06ada8701687261665aab84e50c1d223623cba327138b439a1e523dc9639473ff7c17371cbaac1c8cbb52c95d56461b026711b6239255947f380884e98ccd53519b7a0e0ad1f96e363d0c440319e61750881f566da638a1f972fce2c137fcc7ceca83cba83ae2c94416a22d388e452009b5826e0ec7e6ab684cb7147fc31a4fc8ab0856004d0f560aaf1155cd109be1d0d238b2f87d2f8dbf17ec5537b470213f773228c5bbd866e40d655bc2446f833c188dce7dd21d80348d21f5b9e/36af763623e588e24702e2a5257fc4804d96b6afec75df29ee95b7d6a2d6568ae53e33e4858b207a2ea19cce1ed8ea816aad611c99ff840108fce1652fe4bb292597b8ff256ca644ab3998b65a6a4e69b27ac47e30ca4103626d0a01a421079e41e281bee7e8cc5047d33482fb29dd2ad90a46d6964c356839973f996be44c5840452a0897effd1cff847c798e73b253/platform-work-delivery-rider-cpf-contribution-5294336
+    - text: "4"
+    - 'heading "''We''re unable to achieve that dream'': Why Malaysia is losing its doctors" [level=6]':
+      - 'link "''We''re unable to achieve that dream'': Why Malaysia is losing its doctors"':
+        - /url: https://boost-recommend.mediacorp.sg/click/df8512ac9223bed1645bcbc38ec124281243a1e93e88c8993c8954c417f4cdc6b77b2cbf007feb89e40cb7c99896644eb1836ea98a6d9c99f5d2e6b317817180e92f45367e295f9e0d0ef4cae4f8be8fce0778d06c4ba949a2a53642661217f3de110534b6481816da88cb50e4aef103e0a67e463991d7d278ab9fbe6aae2486cd0ed90ed73954d0889b6e342f278f95696a3d8081031793cc4209508ea8cc23008a7674861ee86756f3fb9359d5382df2dd6e7fa49fa6dfed10b0b4d1074f578582aaf0d3e883033548de3fa156647531bd78c3fd0815da0cb3c00c098e293941703508b06225016b9f8966ebd8c527ce471b8d79088e2f3bb1721f3da9d3d5ccb95c383f07317b221f7e92bcb59cf46bb604151c249b31fc972ea6b08ba414762ea69d464d93bd875bd6466cc466b02aaac2f1479559a1901c28d072e150b7caa39f6c8cb83b66b0f74a26101b806a24c2a70bfb15561e25217129f12b05e68c9f814686be5e9a35b5e2edcdbbd56fc3b539e5f2cc966a8857d7ea9ebdc1b20614a502954fbc609f043f13a89330a2862df54e1c472a9d3ac6e31ff641c9da6ef24cff3420ea3878b6017b5cd186f2b722614c21489f2fe1b2e257da53672f44b5510ac7de2c65fba4d963489803d52a03a03b0d2c346afe5c0ce73eb308eec5c1e8a2bbffeb8def5e743c51894a20047e821a98b935f9fb1a58eca88dd54aca239cb1f0fd25d5ba588650b7a54e597c35567b81abb78f31747ad4093f021dec48dd7560397fc7df5969961aa5e9e0148a7380d411cb1e01ccff396fb35584a6adc710a63daee70144477cc1f9e7a78342d07212bc7fa093f7c4345098ff9a0b3d116b4987e44738ea3ec05c79b4fa660125a8b3af80e38803d9f82753358531fa0063b001bcfcba7bb932f0bf8fa2bf6e4b3b23b38aae4362c7d1676e823e628422a8b24a9c4dcb2209f6f55e2c898581bacf4aa75cf0a9168ba1c26baa16e6385b65af2ed25fc54d83c5fb126516/36af763623e588e24702e2a5257fc4804d96b6afec75df29ee95b7d6a2d6568a79b04163ac6ef2456c79954e328f89861cc82855b3251f326295bbb04fed7cd031bd2f35599f04e5c33a4af6ada82f34373ffed5bf567f39f40b22e84d2055d27c10707414dd258fe87ff0aa721a20543c5adec9b4677ee884ee09e5164813fb6d514ac8eafab6fb463f02541e1cca80/malaysia-doctor-shortage-low-pay-84-hour-working-week-5294496
+    - text: "5"
+    - heading "IOC rejects allegations Ng Ser Miang mixed 'his many positions with family business', says he followed the rules" [level=6]:
+      - link "IOC rejects allegations Ng Ser Miang mixed 'his many positions with family business', says he followed the rules":
+        - /url: https://boost-recommend.mediacorp.sg/click/df8512ac9223bed1645bcbc38ec124281243a1e93e88c8993c8954c417f4cdc6efd26ad219b918237e5e195d2b5dcb5b7f8be3268f4b69eee3634908d02196aa83ae217aa5756c344b443a9efbe903ab502b3cd7a0c446f1cf5977187e4ff3699a34fe0bed7d1d21350b6773d8ec8ceefb129f0ee9cd652117e35efcf1962bd49b8b2015968facb2bdff8f07829d8d0262bc52f271bcbf8206369aae284a6b7d1988903cb1c2a39635ac5cf90e3bb1c46e03f77d6bd3475fe9de252dd56ab0ebb302faca69682813ff0c2281ccf83fbd8f32d858c68e235415b34084b898ba8f37bb611e5109ffa50f9259e6582395984ee736483012bae69090c5c7da65e2f90f7dd8364f359e6930c740ce805a2bf6015ae94ae21d90f5df38658a1d77731425d42ade052a6ff73758f5804974e680ab6506bcbe9efd7c89f63ddf4d8910a31f029d3e473ed0b79dea366940df39db541f685be2d2892e0e3b17a6095c106ff5736f4a2ec5d3c7cff77ee747b7ad080c0f0c35416fb9b2fa94d9ac919b589d8d6ccb72549abf5f3194be4331e1193bad31c075a8f38d85ffa1f2f2d57dbc034e9d55f0eb711e1ff19bd81e6a5a58d354f3489e52186fbad4444af9c6daaac153e16ade37f29d5b027174803e28ba0ec6d77201837ea4461f1dc25c2edf570dcf45f9077aac600bdef18e33f74b7d089c47e2147c35b2d95cf196a9550dcbcb3f99c0695cd26587123554c33800921d06b9dd1bdb4cd830b5c841c73c9bd5687b7ea09e15319ba1527136b689919ee525c272e4a511b1312a08e5a298d316b1f9b2d0caebbfc0f074df1f17ac30364bdcf246814051e4961e50f88faf6f99c533992dc423ea228de287835f1c9c280aee1ec42dd31267c3d8138a67a8db38a8de281e9a28c0b70d848614b97b20ddb87f3ca5056408b0e0d3aac15792defb303d854c137d654daf8b71b23710dc6c01e645eaa87090f37a624f0d8b1b87d05be2635645dda6a60f1b8f771572276f3b/36af763623e588e24702e2a5257fc4804d96b6afec75df29ee95b7d6a2d6568a1b4bb34dd35b19f28d56db318b5f83c5248530e1997accb730674043f427386734f762d649a3a835e088669067166452a422d136f73b53cee2c5c81d613eb52195f498724161957cd9ce36e4455857857ed824568eac9d9a38dfcbcd9626e932aeb435a1cfe66ccaefb99f2e53da38b86b403a9f8851fd2402168e9814248ccc/international-olympic-committee-ng-ser-miang-complaint-conflict-interest-5294776
+    - heading "TODAY" [level=2]
+    - link "I made an investment mistake. How do I recover from it?":
+      - /url: /today/voices/investment-mistake-how-recover-5277426?click_source=thumbnail
+      - img "I made an investment mistake. How do I recover from it?"
+    - heading "I made an investment mistake. How do I recover from it?" [level=2]:
+      - link "I made an investment mistake. How do I recover from it?":
+        - /url: /today/voices/investment-mistake-how-recover-5277426
+    - text: 6 days ago
+    - link "Can cycling be a preferred transport choice and way of life in Singapore?":
+      - /url: /today/big-read/cycling-singapore-transport-infrastructure-commute-5281096?click_source=thumbnail
+      - img "Can cycling be a preferred transport choice and way of life in Singapore?"
+    - heading "Can cycling be a preferred transport choice and way of life in Singapore?" [level=2]:
+      - link "Can cycling be a preferred transport choice and way of life in Singapore?":
+        - /url: /today/big-read/cycling-singapore-transport-infrastructure-commute-5281096
+    - text: 2 days ago
+    - link "How a family dispute over turning down British citizenship forged this Singapore filmmaker's destiny":
+      - /url: /today/up-close/filmmaker-rajagopal-yellow-bird-storytelling-5282436?click_source=thumbnail
+      - img "How a family dispute over turning down British citizenship forged this Singapore filmmaker's destiny"
+    - heading "How a family dispute over turning down British citizenship forged this Singapore filmmaker's destiny" [level=3]:
+      - link "How a family dispute over turning down British citizenship forged this Singapore filmmaker's destiny":
+        - /url: /today/up-close/filmmaker-rajagopal-yellow-bird-storytelling-5282436
+    - text: 6 days ago
+    - link "As AI becomes confidante, counsellor and even partner, what will happen to human relationships?":
+      - /url: /today/big-read/ai-technology-interpersonal-communication-humans-5282381?click_source=thumbnail
+      - img "As AI becomes confidante, counsellor and even partner, what will happen to human relationships?"
+    - heading "As AI becomes confidante, counsellor and even partner, what will happen to human relationships?" [level=3]:
+      - link "As AI becomes confidante, counsellor and even partner, what will happen to human relationships?":
+        - /url: /today/big-read/ai-technology-interpersonal-communication-humans-5282381
+    - text: 5 days ago
+    - link "Brain fog troubling you? Here's how to battle mental cloudiness, and spot signs it may be more serious":
+      - /url: /today/mental-health-matters/brain-fog-mental-cloudiness-5266696?click_source=thumbnail
+      - img "Brain fog troubling you? Here's how to battle mental cloudiness, and spot signs it may be more serious"
+    - heading "Brain fog troubling you? Here's how to battle mental cloudiness, and spot signs it may be more serious" [level=3]:
+      - link "Brain fog troubling you? Here's how to battle mental cloudiness, and spot signs it may be more serious":
+        - /url: /today/mental-health-matters/brain-fog-mental-cloudiness-5266696
+    - paragraph: How can we tell the difference between everyday forgetfulness and serious conditions such as dementia?
+    - text: 6 days ago
+    - link "More on TODAY":
+      - /url: /today
+    - text: Advertisement
+    - heading "Luxury" [level=2]
+    - 'link "New cocktail menus in Singapore: 7 bars to sip, savour and celebrate"':
+      - /url: /experiences/new-cocktail-bar-menus-singapore-5291811?click_source=thumbnail
+      - 'img "New cocktail menus in Singapore: 7 bars to sip, savour and celebrate"'
+    - 'heading "New cocktail menus in Singapore: 7 bars to sip, savour and celebrate" [level=3]':
+      - 'link "New cocktail menus in Singapore: 7 bars to sip, savour and celebrate"':
+        - /url: /experiences/new-cocktail-bar-menus-singapore-5291811
+    - text: 9 hours ago
+    - link "Who says good wine has to be expensive?":
+      - /url: /experiences/good-inexpensive-wines-singapore-5289716?click_source=thumbnail
+      - img "Who says good wine has to be expensive?"
+    - heading "Who says good wine has to be expensive?" [level=3]:
+      - link "Who says good wine has to be expensive?":
+        - /url: /experiences/good-inexpensive-wines-singapore-5289716
+    - text: a day ago
+    - link "How two-time GPHG winner Stefan Kudoke went from spray cans to skeletonised movements":
+      - /url: /people/independent-watchmaker-stefan-kudoke-5284606?click_source=thumbnail
+      - img "How two-time GPHG winner Stefan Kudoke went from spray cans to skeletonised movements"
+    - heading "How two-time GPHG winner Stefan Kudoke went from spray cans to skeletonised movements" [level=3]:
+      - link "How two-time GPHG winner Stefan Kudoke went from spray cans to skeletonised movements":
+        - /url: /people/independent-watchmaker-stefan-kudoke-5284606
+    - text: 2 days ago
+    - link "Meet Bianca Bustamante, the rising race car driver from the Philippines who was ‘told to dream less’":
+      - /url: /people/bianca-bustamante-race-car-driver-philippines-mclaren-5281941?click_source=thumbnail
+      - img "Meet Bianca Bustamante, the rising race car driver from the Philippines who was ‘told to dream less’"
+    - heading "Meet Bianca Bustamante, the rising race car driver from the Philippines who was ‘told to dream less’" [level=3]:
+      - link "Meet Bianca Bustamante, the rising race car driver from the Philippines who was ‘told to dream less’":
+        - /url: /people/bianca-bustamante-race-car-driver-philippines-mclaren-5281941
+    - text: 3 days ago
+    - heading "Insider" [level=2]
+    - link "Dear Singapore, your girls playing football want more than applause — they want momentum":
+      - /url: /cna-insider/dear-singapore-danelle-tan-letter-girls-playing-football-dreams-5280191?click_source=thumbnail
+      - img "Dear Singapore, your girls playing football want more than applause — they want momentum"
+    - heading "Dear Singapore, your girls playing football want more than applause — they want momentum" [level=2]:
+      - link "Dear Singapore, your girls playing football want more than applause — they want momentum":
+        - /url: /cna-insider/dear-singapore-danelle-tan-letter-girls-playing-football-dreams-5280191
+    - text: 6 minutes ago
+    - link "Why monkey sightings are on the rise, and how to keep from being an easy target":
+      - /url: /cna-insider/monkey-intruders-singapore-sightings-rising-wild-macaques-target-punggol-5267066?click_source=thumbnail
+      - img "Why monkey sightings are on the rise, and how to keep from being an easy target"
+    - heading "Why monkey sightings are on the rise, and how to keep from being an easy target" [level=2]:
+      - link "Why monkey sightings are on the rise, and how to keep from being an easy target":
+        - /url: /cna-insider/monkey-intruders-singapore-sightings-rising-wild-macaques-target-punggol-5267066
+    - text: 15 days ago
+    - 'link "‘Not a great time to be here’: Asians rethink working, studying in Trump’s America"':
+      - /url: /cna-insider/asian-immigration-united-states-america-donald-trump-students-workers-5253946?click_source=thumbnail
+      - 'img "‘Not a great time to be here’: Asians rethink working, studying in Trump’s America"'
+    - 'heading "‘Not a great time to be here’: Asians rethink working, studying in Trump’s America" [level=3]':
+      - 'link "‘Not a great time to be here’: Asians rethink working, studying in Trump’s America"':
+        - /url: /cna-insider/asian-immigration-united-states-america-donald-trump-students-workers-5253946
+    - text: 22 days ago
+    - link "Why futuristic Japan is falling behind in digital tech":
+      - /url: /cna-insider/futuristic-japan-digital-lag-high-tech-image-cyber-vulnerability-5241336?click_source=thumbnail
+      - img "Why futuristic Japan is falling behind in digital tech"
+    - heading "Why futuristic Japan is falling behind in digital tech" [level=3]:
+      - link "Why futuristic Japan is falling behind in digital tech":
+        - /url: /cna-insider/futuristic-japan-digital-lag-high-tech-image-cyber-vulnerability-5241336
+    - text: 29 days ago
+    - link "Dear Singapore, be brave, be kind, be a kampung":
+      - /url: /cna-insider/dear-singapore-letter-success-safety-known-empathy-courage-connection-5283011?click_source=thumbnail
+      - img "Dear Singapore, be brave, be kind, be a kampung"
+    - heading "Dear Singapore, be brave, be kind, be a kampung" [level=3]:
+      - link "Dear Singapore, be brave, be kind, be a kampung":
+        - /url: /cna-insider/dear-singapore-letter-success-safety-known-empathy-courage-connection-5283011
+    - paragraph: Singaporean couple Nerine Mak and Haren Khatau are travelling the world on dirt bikes. They’ve paused to pen a letter with their vision for Singapore, a nation they hope will value curiosity and reconnect with nature and one another.
+    - text: 2 days ago
+    - link "More from Insider":
+      - /url: /cna-insider
+    - heading "Recent Videos" [level=2]
+    - link "The officers who fight corruption in Singapore":
+      - /url: /watch/officers-who-fight-corruption-in-singapore-5294966
+      - img "The officers who fight corruption in Singapore"
+      - img
+    - text: 5 m
+    - heading "The officers who fight corruption in Singapore" [level=2]:
+      - link "The officers who fight corruption in Singapore":
+        - /url: /watch/officers-who-fight-corruption-in-singapore-5294966
+    - text: 10 hours ago
+    - link "Three President's Scholars hope to make significant contributions to Singapore":
+      - /url: /watch/three-presidents-scholars-hope-make-significant-contributions-singapore-5295041
+      - img "Three President's Scholars hope to make significant contributions to Singapore"
+      - img
+    - text: 3 m
+    - heading "Three President's Scholars hope to make significant contributions to Singapore" [level=3]:
+      - link "Three President's Scholars hope to make significant contributions to Singapore":
+        - /url: /watch/three-presidents-scholars-hope-make-significant-contributions-singapore-5295041
+    - text: 15 hours ago
+    - link "More videos":
+      - /url: /watch/all
+    - heading "Brand Studio" [level=2]
+    - link "Celebrating 55 years of Range Rover with its first showcase in Singapore":
+      - /url: /advertorial/celebrating-55-years-range-rover-its-first-showcase-in-singapore-5284311?click_source=thumbnail
+      - img "Celebrating 55 years of Range Rover with its first showcase in Singapore"
+    - heading "Celebrating 55 years of Range Rover with its first showcase in Singapore" [level=2]:
+      - link "Celebrating 55 years of Range Rover with its first showcase in Singapore":
+        - /url: /advertorial/celebrating-55-years-range-rover-its-first-showcase-in-singapore-5284311
+    - link "Using games and role-play, this teacher ignites a passion for the Tamil language":
+      - /url: /brandstudio/99forthe1percent/myfirstskool?click_source=thumbnail
+      - img "Using games and role-play, this teacher ignites a passion for the Tamil language"
+    - text: brand studio
+    - heading "Using games and role-play, this teacher ignites a passion for the Tamil language" [level=2]:
+      - link "Using games and role-play, this teacher ignites a passion for the Tamil language":
+        - /url: /brandstudio/99forthe1percent/myfirstskool
+    - link "Together with his parents, this preschool teacher helped her student overcome developmental hurdles":
+      - /url: /brandstudio/99forthe1percent/e-bridge?click_source=thumbnail
+      - img "Together with his parents, this preschool teacher helped her student overcome developmental hurdles"
+    - text: brand studio
+    - heading "Together with his parents, this preschool teacher helped her student overcome developmental hurdles" [level=3]:
+      - link "Together with his parents, this preschool teacher helped her student overcome developmental hurdles":
+        - /url: /brandstudio/99forthe1percent/e-bridge
+    - link "This preschool educator pairs sound pedagogy with open parent dialogue":
+      - /url: /brandstudio/99forthe1percent/kinderland?click_source=thumbnail
+      - img "This preschool educator pairs sound pedagogy with open parent dialogue"
+    - text: brand studio
+    - heading "This preschool educator pairs sound pedagogy with open parent dialogue" [level=3]:
+      - link "This preschool educator pairs sound pedagogy with open parent dialogue":
+        - /url: /brandstudio/99forthe1percent/kinderland
+    - 'link "Aurea: An iconic residential development rooted in culture and urban renewal"':
+      - /url: /advertorial/aurea-iconic-residential-development-rooted-in-culture-and-urban-renewal-5242616?click_source=thumbnail
+      - 'img "Aurea: An iconic residential development rooted in culture and urban renewal"'
+    - 'heading "Aurea: An iconic residential development rooted in culture and urban renewal" [level=3]':
+      - 'link "Aurea: An iconic residential development rooted in culture and urban renewal"':
+        - /url: /advertorial/aurea-iconic-residential-development-rooted-in-culture-and-urban-renewal-5242616
+    - paragraph: Set next to the conserved Golden Mile Complex, this 188-unit luxury development is shaped by the area’s ongoing transformation – balancing modern living with heritage.
+    - link "View More":
+      - /url: /brand-studio
+    - text: Get bite-sized news via a new cards interface. Give it a try.
+    - button:
+      - img
+    - link "FAST":
+      - /url: /fast?edition=sg
+      - text: FAST
+      - img
+- contentinfo:
+  - navigation:
+    - text: CNA Sections
+    - list:
+      - listitem:
+        - link "Asia":
+          - /url: /asia
+      - listitem:
+        - link "Singapore":
+          - /url: /singapore
+      - listitem:
+        - link "Business":
+          - /url: /business
+      - listitem:
+        - link "CNA Insider":
+          - /url: /cna-insider
+      - listitem:
+        - link "Lifestyle":
+          - /url: https://cnalifestyle.channelnewsasia.com/
+      - listitem:
+        - link "Luxury":
+          - /url: https://cnaluxury.channelnewsasia.com/
+      - listitem:
+        - link "TODAY":
+          - /url: /today
+      - listitem:
+        - link "CNA938 Live":
+          - /url: /listen
+      - listitem:
+        - link "Commentary":
+          - /url: /commentary
+      - listitem:
+        - link "Interactives":
+          - /url: /interactives
+      - listitem:
+        - link "Live TV":
+          - /url: /watch
+      - listitem:
+        - link "Sport":
+          - /url: /sport
+      - listitem:
+        - link "Special Reports":
+          - /url: /special-reports
+      - listitem:
+        - link "World":
+          - /url: /world
+      - listitem:
+        - link "Newsletters":
+          - /url: /newsletters
+  - navigation:
+    - text: About CNA
+    - list:
+      - listitem:
+        - link "Advertise With Us":
+          - /url: /advertise-us
+      - listitem:
+        - link "Contact Us":
+          - /url: /contact-us
+      - listitem:
+        - link "Mediacorp Network":
+          - /url: /mediacorp-digital-network
+  - text: Follow our news
+  - list:
+    - listitem:
+      - link "Facebook":
+        - /url: https://www.facebook.com/ChannelNewsAsia
+        - img
+        - text: Facebook
+    - listitem:
+      - link "Twitter":
+        - /url: https://www.twitter.com/Channelnewsasia
+        - img
+        - text: Twitter
+    - listitem:
+      - link "Youtube":
+        - /url: https://www.youtube.com/user/channelnewsasia
+        - img
+        - text: Youtube
+    - listitem:
+      - link "LinkedIn":
+        - /url: https://www.linkedin.com/company/channel-newsasia/
+        - img
+        - text: LinkedIn
+    - listitem:
+      - link "RSS":
+        - /url: /rss
+        - img
+        - text: RSS
+  - link "Google Play":
+    - /url: https://play.google.com/store/apps/details?id=com.channelnewsasia
+    - img
+  - link "App Store":
+    - /url: https://itunes.apple.com/us/app/channel-newsasia/id520773971?mt=8
+    - img
+  - link "Huawei App Gallery":
+    - /url: https://appgallery.huawei.com/#/app/C101326503?appId=C101326503&source=appshare&subsource=C101326503
+    - img
+  - paragraph: Copyright© Mediacorp 2025. Mediacorp Pte Ltd. All rights reserved.
+  - link "Official Domain":
+    - /url: https://www.channelnewsasia.com/official-domain
+  - text: "|"
+  - link "Terms & Conditions":
+    - /url: https://www.mediacorp.sg/en/termsofuse
+  - text: "|"
+  - link "Privacy Policy":
+    - /url: https://www.mediacorp.sg/en/privacy-policy-5933440
+  - text: "|"
+  - link "Report Vulnerability":
+    - /url: https://mediacorp.vulnerability-disclosure.com/p/Policy
+  - text: "|"
+  - link "Online Links Policy":
+    - /url: https://www.mediacorp.sg/online-links-policy
+- link:
+  - /url: javascript:;
+- link:
+  - /url: javascript:;
+  - img
+- link:
+  - /url: javascript:;
+- link:
+  - /url: javascript:;
+  - img
+- link "Logo":
+  - /url: /
+  - img "Logo"
+- text: This browser is no longer supported
+- paragraph: We know it's a hassle to switch browsers but we want your experience with CNA to be fast, secure and the best it can possibly be.
+- paragraph: To continue, upgrade to a supported browser or, for the finest experience, download the mobile app.
+- link "Logo":
+  - /url: https://play.google.com/store/apps/details?id=com.channelnewsasia&hl=en&gl=US
+  - img "Logo"
+- link "Logo":
+  - /url: https://apps.apple.com/sg/app/cna-channel-newsasia/id520773971
+  - img "Logo"
+- paragraph:
+  - text: Upgraded but still having issues?
+  - link "Contact us":
+    - /url: /contact-us
+```
