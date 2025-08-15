@@ -15,11 +15,12 @@ export default function SetupPage() {
   const [webhookSecret, setWebhookSecret] = useState('')
   const [loading, setLoading] = useState(false)
   const [webhookLoading, setWebhookLoading] = useState(false)
+  const [testMessage, setTestMessage] = useState('')
   const { toast } = useToast()
 
   const generateWebhookSecret = () => {
     console.log('Generate webhook secret button clicked')
-    // alert('Button clicked - generating webhook secret')
+    alert('Button clicked - generating webhook secret')
     setWebhookLoading(true)
     
     try {
@@ -141,26 +142,42 @@ export default function SetupPage() {
             </CardDescription>
           </CardHeader>
           <CardContent className="space-y-4">
-            <div className="flex gap-2">
-              <Button 
-                onClick={generateWebhookSecret} 
-                variant="outline"
-                className="w-full sm:w-auto"
-                disabled={webhookLoading}
-              >
-                <Shield className="h-4 w-4 mr-2" />
-                {webhookLoading ? "Generating..." : "Generate Webhook Secret"}
-              </Button>
-              {webhookSecret && (
-                <Badge variant="secondary" className="ml-2">
-                  Generated
-                </Badge>
-              )}
-              {webhookLoading && (
-                <Badge variant="outline" className="ml-2">
-                  Working...
-                </Badge>
-              )}
+            <div className="space-y-3">
+              <div className="flex gap-2">
+                <Button 
+                  onClick={() => {
+                    console.log('TEST BUTTON CLICKED')
+                    setTestMessage('Test button works! ' + new Date().toLocaleTimeString())
+                  }}
+                  variant="secondary"
+                  size="sm"
+                >
+                  Test Button
+                </Button>
+                {testMessage && <span className="text-sm text-green-600">{testMessage}</span>}
+              </div>
+              
+              <div className="flex gap-2">
+                <Button 
+                  onClick={generateWebhookSecret} 
+                  variant="outline"
+                  className="w-full sm:w-auto"
+                  disabled={webhookLoading}
+                >
+                  <Shield className="h-4 w-4 mr-2" />
+                  {webhookLoading ? "Generating..." : "Generate Webhook Secret"}
+                </Button>
+                {webhookSecret && (
+                  <Badge variant="secondary" className="ml-2">
+                    Generated
+                  </Badge>
+                )}
+                {webhookLoading && (
+                  <Badge variant="outline" className="ml-2">
+                    Working...
+                  </Badge>
+                )}
+              </div>
             </div>
             
             {webhookSecret && (
