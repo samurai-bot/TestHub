@@ -1,10 +1,20 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { createHmac, timingSafeEqual } from 'crypto'
+import { validateApiToken, extractTokenFromRequest } from '@/lib/auth'
 
 export const dynamic = 'force-dynamic'
 
 export async function POST(request: NextRequest) {
   try {
+    // Verify API token if provided
+    const token = extractTokenFromRequest(request)
+    if (token && !validateApiToken(token)) {
+      return NextResponse.json(
+        { error: 'Invalid API token' },
+        { status: 401 }
+      )
+    }
+    
     // Get raw body for HMAC verification
     const body = await request.text()
     const signature = request.headers.get('X-Signature') || request.headers.get('x-hub-signature-256')
