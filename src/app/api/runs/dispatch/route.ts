@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { RunDispatchRequestSchema, RunDispatchResponseSchema } from '@/lib/schemas'
-import { prisma } from '@/lib/prisma'
 
 export const dynamic = 'force-dynamic'
 
@@ -10,6 +9,7 @@ export async function POST(request: NextRequest) {
     const { testCaseId, environment, testData } = RunDispatchRequestSchema.parse(body)
 
     // Get test case details
+    const { prisma } = await import('@/lib/prisma')
     const testCase = await prisma.testCase.findUnique({
       where: { id: testCaseId },
       include: { project: true }

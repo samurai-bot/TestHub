@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { GenerateTestRequestSchema, GenerateTestResponseSchema } from '@/lib/schemas'
-import { prisma } from '@/lib/prisma'
 
 export const dynamic = 'force-dynamic'
 
@@ -16,6 +15,7 @@ export async function POST(request: NextRequest) {
     // Create test case in database
     let testCase
     try {
+      const { prisma } = await import('@/lib/prisma')
       testCase = await prisma.testCase.create({
       data: {
         name: plan.title,

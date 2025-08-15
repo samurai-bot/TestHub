@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { createHmac, timingSafeEqual } from 'crypto'
-import { prisma } from '@/lib/prisma'
 
 export const dynamic = 'force-dynamic'
 
@@ -39,11 +38,14 @@ export async function POST(request: NextRequest) {
     
     // Handle different GitHub webhook events
     if (payload.action === 'completed' && payload.workflow_run) {
-      await handleWorkflowRun(payload)
+      const { prisma } = await import('@/lib/prisma')
+      await handleWorkflowRun(payload, prisma)
     } else if (payload.action === 'in_progress' && payload.workflow_run) {
-      await handleWorkflowProgress(payload)
+      const { prisma } = await import('@/lib/prisma')
+      await handleWorkflowProgress(payload, prisma)
     } else if (payload.check_run) {
-      await handleCheckRun(payload)
+      const { prisma } = await import('@/lib/prisma')
+      await handleCheckRun(payload, prisma)
     }
 
     return NextResponse.json({ success: true })
@@ -56,7 +58,7 @@ export async function POST(request: NextRequest) {
   }
 }
 
-async function handleWorkflowRun(payload: any) {
+async function handleWorkflowRun(payload: any, prisma: any) {
   const workflowRun = payload.workflow_run
   const runId = extractRunIdFromWorkflow(workflowRun)
   
@@ -83,15 +85,15 @@ async function handleWorkflowRun(payload: any) {
 
   // If we have artifacts or steps data in the payload, process them
   if (payload.artifacts) {
-    await processArtifacts(runId, payload.artifacts)
+    await processArtifacts(runId, payload.artifacts, prisma)
   }
 
   if (payload.steps) {
-    await processTestSteps(runId, payload.steps)
+    await processTestSteps(runId, payload.steps, prisma)
   }
 }
 
-async function handleWorkflowProgress(payload: any) {
+async function handleWorkflowProgress(payload: any, prisma: any) {
   const workflowRun = payload.workflow_run
   const runId = extractRunIdFromWorkflow(workflowRun)
   
@@ -106,7 +108,7 @@ async function handleWorkflowProgress(payload: any) {
   })
 }
 
-async function handleCheckRun(payload: any) {
+async function handleCheckRun(payload: any, prisma: any) {
   // Handle individual check run updates if needed
   const checkRun = payload.check_run
   const runId = extractRunIdFromCheck(checkRun)
@@ -115,7 +117,7 @@ async function handleCheckRun(payload: any) {
 
   // Process individual test step results
   if (checkRun.output?.annotations) {
-    await processCheckAnnotations(runId, checkRun.output.annotations)
+    await processCheckAnnotations(runId, checkRun.output.annotations, prisma)
   }
 }
 
@@ -175,7 +177,7 @@ function generateSummary(status: string, workflowRun: any): string {
   return 'Test run is in progress.'
 }
 
-async function processArtifacts(runId: string, artifacts: any[]) {
+async function processArtifacts(runId: string, artifacts: any[], prisma: any) {
   // Update test run with main artifact URL
   if (artifacts.length > 0) {
     const mainArtifact = artifacts.find(a => a.name.includes('test-results')) || artifacts[0]
@@ -189,7 +191,7 @@ async function processArtifacts(runId: string, artifacts: any[]) {
   }
 }
 
-async function processTestSteps(runId: string, steps: any[]) {
+async function processTestSteps(runId: string, steps: any[], prisma: any) {
   // Create or update test steps
   for (const step of steps) {
     await prisma.testStep.upsert({
@@ -223,7 +225,7 @@ async function processTestSteps(runId: string, steps: any[]) {
   }
 }
 
-async function processCheckAnnotations(runId: string, annotations: any[]) {
+async function processCheckAnnotations(runId: string, annotations: any[], prisma: any) {
   // Process test failures from check annotations
   for (const annotation of annotations) {
     const stepName = annotation.title || `Line ${annotation.start_line}`
