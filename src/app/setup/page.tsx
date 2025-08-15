@@ -14,19 +14,54 @@ export default function SetupPage() {
   const [apiToken, setApiToken] = useState('')
   const [webhookSecret, setWebhookSecret] = useState('')
   const [loading, setLoading] = useState(false)
+  const [webhookLoading, setWebhookLoading] = useState(false)
   const { toast } = useToast()
 
   const generateWebhookSecret = () => {
-    // Generate a random 32-byte hex string
-    const array = new Uint8Array(32)
-    crypto.getRandomValues(array)
-    const secret = Array.from(array, byte => byte.toString(16).padStart(2, '0')).join('')
-    setWebhookSecret(secret)
+    console.log('Generate webhook secret button clicked')
+    // alert('Button clicked - generating webhook secret')
+    setWebhookLoading(true)
     
-    toast({
-      title: "Webhook Secret Generated",
-      description: "A secure webhook secret has been generated for you."
-    })
+    try {
+      // Generate a random 32-byte hex string
+      if (typeof window !== 'undefined' && window.crypto && window.crypto.getRandomValues) {
+        console.log('Using crypto.getRandomValues')
+        const array = new Uint8Array(32)
+        window.crypto.getRandomValues(array)
+        const secret = Array.from(array, byte => byte.toString(16).padStart(2, '0')).join('')
+        console.log('Generated secret length:', secret.length)
+        setWebhookSecret(secret)
+        
+        toast({
+          title: "Webhook Secret Generated",
+          description: "A secure webhook secret has been generated for you."
+        })
+      } else {
+        console.log('Using fallback method')
+        // Fallback for environments without crypto API
+        const chars = 'abcdef0123456789'
+        let secret = ''
+        for (let i = 0; i < 64; i++) {
+          secret += chars[Math.floor(Math.random() * chars.length)]
+        }
+        console.log('Generated fallback secret length:', secret.length)
+        setWebhookSecret(secret)
+        
+        toast({
+          title: "Webhook Secret Generated",
+          description: "A secure webhook secret has been generated for you (using fallback method)."
+        })
+      }
+    } catch (error) {
+      console.error('Error generating webhook secret:', error)
+      toast({
+        title: "Error",
+        description: "Failed to generate webhook secret. Please try again.",
+        variant: "destructive"
+      })
+    } finally {
+      setWebhookLoading(false)
+    }
   }
 
   const generateApiToken = async () => {
@@ -107,9 +142,25 @@ export default function SetupPage() {
           </CardHeader>
           <CardContent className="space-y-4">
             <div className="flex gap-2">
-              <Button onClick={generateWebhookSecret} variant="outline">
-                Generate Webhook Secret
+              <Button 
+                onClick={generateWebhookSecret} 
+                variant="outline"
+                className="w-full sm:w-auto"
+                disabled={webhookLoading}
+              >
+                <Shield className="h-4 w-4 mr-2" />
+                {webhookLoading ? "Generating..." : "Generate Webhook Secret"}
               </Button>
+              {webhookSecret && (
+                <Badge variant="secondary" className="ml-2">
+                  Generated
+                </Badge>
+              )}
+              {webhookLoading && (
+                <Badge variant="outline" className="ml-2">
+                  Working...
+                </Badge>
+              )}
             </div>
             
             {webhookSecret && (
