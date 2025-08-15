@@ -3,9 +3,8 @@ generator client {
 }
 
 datasource db {
-  provider = "postgresql"
+  provider = "sqlite"
   url      = env("DATABASE_URL")
-  directUrl = env("DIRECT_URL")
 }
 
 model Project {
@@ -26,7 +25,7 @@ model TestCase {
   id          String   @id @default(cuid())
   name        String
   description String?
-  steps       Json?
+  steps       String?
   expected    String?
   priority    String   @default("medium")
   status      String   @default("active")

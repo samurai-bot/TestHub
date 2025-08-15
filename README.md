@@ -24,6 +24,8 @@ A modern test case management platform built with Next.js 14, TypeScript, Supaba
 
 ## Getting Started
 
+### Local Development
+
 1. Clone the repository
 2. Install dependencies:
    ```bash
@@ -32,20 +34,60 @@ A modern test case management platform built with Next.js 14, TypeScript, Supaba
 
 3. Set up environment variables:
    ```bash
-   cp .env.local.example .env.local
+   touch .env.local
    ```
-   Fill in your Supabase credentials.
+   Add the following to `.env.local`:
+   ```
+   NODE_ENV=development
+   DATABASE_URL="file:./prisma/dev.db"
+   WEBHOOK_SECRET=your-secret-here
+   ```
 
 4. Set up the database:
    ```bash
-   npm run db:push
    npm run db:generate
+   npm run db:push
    ```
 
-5. Run the development server:
+5. Seed the database with sample data:
+   ```bash
+   npm run seed
+   ```
+
+6. Run the development server:
    ```bash
    npm run dev
    ```
+
+### Production Deployment
+
+#### Vercel Deployment
+1. Connect your GitHub repository to Vercel
+2. Add environment variables in Vercel dashboard:
+   ```
+   DATABASE_URL=your-production-database-url
+   WEBHOOK_SECRET=your-webhook-secret
+   TESTHUB_API_TOKEN=your-api-token
+   ```
+3. Deploy automatically on push to main
+
+#### GitHub Actions Setup
+The repository includes automated testing via GitHub Actions:
+
+1. **Set repository secrets:**
+   - `TESTHUB_API_URL`: Your deployed TestHub URL
+   - `WEBHOOK_SECRET`: Same as in your .env
+   - `TESTHUB_API_TOKEN`: API token for TestHub access
+
+2. **Automatic test execution:**
+   - Daily at 6 AM UTC
+   - On push to main branch
+   - Manual trigger via GitHub Actions
+
+3. **Test results:**
+   - Automatically reported back to TestHub
+   - Available in GitHub Actions artifacts
+   - HTML reports generated for each run
 
 ## Project Structure
 
