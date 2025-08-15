@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { useState, useEffect, useCallback } from "react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
@@ -48,11 +48,7 @@ export default function TestRunPage({ params }: TestRunPageProps) {
   const [loading, setLoading] = useState(true)
   const { toast } = useToast()
 
-  useEffect(() => {
-    fetchTestRun()
-  }, [params.id])
-
-  const fetchTestRun = async () => {
+  const fetchTestRun = useCallback(async () => {
     try {
       // Mock data - replace with actual API call
       const mockTestRun: TestRun = {
@@ -115,7 +111,11 @@ export default function TestRunPage({ params }: TestRunPageProps) {
     } finally {
       setLoading(false)
     }
-  }
+  }, [params.id])
+
+  useEffect(() => {
+    fetchTestRun()
+  }, [fetchTestRun])
 
   const getStatusBadge = (status: string) => {
     switch (status) {

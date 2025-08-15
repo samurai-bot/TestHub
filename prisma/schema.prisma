@@ -74,6 +74,7 @@ model TestStep {
   testRunId String
   testRun   TestRun @relation(fields: [testRunId], references: [id], onDelete: Cascade)
   
+  @@unique([testRunId, name])
   @@map("test_steps")
 }
 
