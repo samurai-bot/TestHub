@@ -1,0 +1,100 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Project {
+  id          String   @id @default(cuid())
+  name        String
+  description String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  userId      String
+  
+  testCases   TestCase[]
+  testRuns    TestRun[]
+  
+  @@map("projects")
+}
+
+model TestCase {
+  id          String   @id @default(cuid())
+  name        String
+  description String?
+  steps       String?
+  expected    String?
+  priority    String   @default("medium")
+  status      String   @default("active")
+  template    String?  // Template used: "signup", "promo", "pixel", "content"
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  projectId   String
+  project     Project  @relation(fields: [projectId], references: [id], onDelete: Cascade)
+  
+  testResults TestResult[]
+  
+  @@map("test_cases")
+}
+
+
+model TestResult {
+  id        String   @id @default(cuid())
+  status    String
+  notes     String?
+  duration  Int?
+  createdAt DateTime @default(now())
+  
+  testCaseId String
+  testCase   TestCase @relation(fields: [testCaseId], references: [id], onDelete: Cascade)
+  
+  testRunId String
+  testRun   TestRun  @relation(fields: [testRunId], references: [id], onDelete: Cascade)
+  
+  @@map("test_results")
+}
+
+model TestStep {
+  id          String   @id @default(cuid())
+  name        String
+  status      String   // "passed", "failed", "skipped", "pending"
+  action      String
+  expected    String
+  actual      String?
+  error       String?
+  duration    Int?     // in milliseconds
+  artifactUrl String?
+  screenshot  String?
+  createdAt   DateTime @default(now())
+  
+  testRunId String
+  testRun   TestRun @relation(fields: [testRunId], references: [id], onDelete: Cascade)
+  
+  @@map("test_steps")
+}
+
+model TestRun {
+  id          String   @id @default(cuid())
+  name        String
+  status      String   @default("pending")
+  startedAt   DateTime @default(now())
+  completedAt DateTime?
+  environment String?
+  commitSha   String?
+  commitMessage String?
+  workflowUrl String?
+  artifactUrl String?
+  summary     String?
+  
+  projectId   String
+  project     Project  @relation(fields: [projectId], references: [id], onDelete: Cascade)
+  
+  testResults TestResult[]
+  testSteps   TestStep[]
+  
+  @@map("test_runs")
+}
